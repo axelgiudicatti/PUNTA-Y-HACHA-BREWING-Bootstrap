@@ -1,0 +1,30 @@
+.header__logo {
+  width: 10vw;
+}
+* {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+}
+header {
+  background-color: #93a392;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  margin: 4px;
+}
+
+.nav-link:hover {
+  background-color: #6494aa;
+  color: white;
+  transition-duration: 700ms;
+}
+
+.carousel {
+}
