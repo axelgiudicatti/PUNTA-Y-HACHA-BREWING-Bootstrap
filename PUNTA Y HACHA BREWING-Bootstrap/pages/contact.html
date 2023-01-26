@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESCRIBINOS !</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header --background">
+        <a href="../index.html"
+          ><img class="header__logo" src="../imgs/logo face.png" alt=""
+        /></a>
+        <nav>
+          <ul class="headerNavlist">
+            <li>
+              <a class="headerNavlist__link" href="../index.html"> HOME</a>
+            </li>
+            <li>
+              <a class="headerNavlist__link" href="../pages/nosotros.html">
+                Quienes somos</a
+              >
+            </li>
+            <li>
+              <a class="headerNavlist__link" href="../pages/cervezas.html">
+                Nuestras cervezas</a
+              >
+            </li>
+            <li>
+              <a class="headerNavlist__link" href="../pages/proceso.html">
+                Nuestro proceso
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="contact">
+        <h1>Te escuchamos!</h1>
+        <form action="">
+          <fieldset>
+            <div>
+              <div>
+                <input
+                  type="text"
+                  name="nombreapellido"
+                  id="nombreapellido"
+                  placeholder="Tu Nombre y Apellido "
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Tu E-mail"
+                />
+              </div>
+              <div>
+                <label for=""> Sexo:</label>
+                <label for=""> Hombre</label>
+                <input type="radio" name="sexo" value="hombre" />
+                <label for=""> Mujer</label>
+                <input type="radio" name="sexo" />
+                <label for=""> Prefiero no decirlo</label>
+                <input type="radio" name="sexo" />
+              </div>
+              <div>
+                <label for="litros">
+                  Cuántos litros de cerveza consumís al mes ?</label
+                >
+                <select name="litros" id="litros">
+                  <option value="0-20">Entre 0 y 20 litros</option>
+                  <option value="21-40">Entre 21 y 40 litros</option>
+                  <option value="41-60">Entre 41 y 60 litros</option>
+                  <option value="60+">Más de 60 litros</option>
+                </select>
+              </div>
+              <div>
+                <textarea
+                  name="mensaje"
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                  placeholder="Deje aqui su mensaje"
+                ></textarea>
+              </div>
+              <div>
+                <input
+                  class="button button--state-ok"
+                  type="submit"
+                  value="Enviar"
+                />
+                <input
+                  class="button button--state-bad"
+                  type="reset"
+                  value=" Borrar todo"
+                />
+              </div>
+              <div>
+                <label for=""> Acepto los terminos y condiciones</label>
+                <input type="checkbox" name="acepta" id="acepta" value="1" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer --fbackground">
+        <ul class="footerNavlist">
+          <li>
+            <a class="footerNavlist__link --oscuro" href="../index.html">
+              HOME</a
+            >
+          </li>
+          <li>
+            <a
+              class="footerNavlist__link --oscuro"
+              href="../pages/nosotros.html"
+            >
+              Quienes somos</a
+            >
+          </li>
+          <li>
+            <a
+              class="footerNavlist__link --oscuro"
+              href="../pages/cervezas.html"
+            >
+              Nuestras cervezas</a
+            >
+          </li>
+          <li>
+            <a
+              class="footerNavlist__link --oscuro"
+              href="../pages/proceso.html"
+            >
+              NUESTRO PROCESO</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="footerNavlist__link --oscuro"
+              href="../pages/contact.html"
+            >
+              CONTACT US</a
+            >
+          </li>
+          <li>
+            <a class="footerNavlist__link --oscuro" href="../pages/faq.html">
+              FAQ</a
+            >
+          </li>
+        </ul>
+        <div class="footerLogo">
+          <a href="../index.html"
+            ><img class="footerLogo__image" src="../imgs/logo face.png" alt=""
+          /></a>
+        </div>
+        <div class="footerSocial">
+          <a
+            id="fb"
+            class="footerSocial__link"
+            href="https://www.facebook.com/PuntayHachaBrewing"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            id="insta"
+            class="footerSocial__link"
+            href="https://www.instagram.com/puntayhachabrewing/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            id="wpp"
+            class="footerSocial__link"
+            href="https://api.whatsapp.com/send/?phone=543496576119&text&type=phone_number&app_absent=0"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
