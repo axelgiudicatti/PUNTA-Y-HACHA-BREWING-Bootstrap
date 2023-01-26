@@ -5,12 +5,12 @@
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
 }
-header {
+.header {
   background-color: #93a392;
-  padding-left: 2%;
-  padding-right: 2%;
 }
-
+.navbar {
+  padding-right: 5%;
+}
 .nav-link {
   color: white;
   text-transform: uppercase;
@@ -18,8 +18,8 @@ header {
   border-radius: 10px;
   padding: 10px 15px 10px 15px;
   margin: 4px;
+  font-size: 1.2rem;
 }
-
 .nav-link:hover {
   background-color: #6494aa;
   color: white;
@@ -27,4 +27,214 @@ header {
 }
 
 .carousel {
+}
+
+/*                                             NOSOTROS                                              */
+
+.-description {
+  text-align: justify;
+  text-shadow: black;
+  font-size: 1.2rem;
+}
+.axel,
+.lola,
+.luisi {
+  align-items: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  justify-content: space-around;
+  justify-items: center;
+}
+.nosotros h1 {
+  background-color: #adbf97;
+  color: black;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 15px;
+}
+.axel {
+  background-color: #9dc4b5;
+}
+.luisi {
+  background-color: #bad9a2;
+}
+.lola {
+  background-color: #e2eb98;
+}
+.luisi img {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.luisi p {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.-img {
+  width: 28vw;
+  height: 30vw;
+}
+.-img:hover {
+  transform: scale(1.08);
+  transition-delay: 100ms;
+  transition-duration: 800ms;
+}
+
+/*                                                     FOOTER                                     */
+
+.footer {
+  height: 45rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 1%;
+}
+.footer ul {
+  list-style: none;
+}
+.--fbackground {
+  background-image: url(../imgs/footer.jpg);
+  height: 75vh;
+  background-size: cover;
+  margin-top: 20vh;
+}
+
+.footerLogo__image {
+  height: 17vh;
+}
+
+.footerNavlist__link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.65;
+  text-transform: uppercase;
+}
+.footerNavlist__link:hover {
+  opacity: 1;
+  transition-duration: 700ms;
+}
+.footerSocial {
+  font-size: 350%;
+}
+.footerSocial__link {
+  color: white;
+  opacity: 0.7;
+}
+#wpp:hover {
+  color: #087e2f;
+  opacity: 1;
+  transition-duration: 700ms;
+}
+#insta:hover {
+  color: #b81d72;
+  opacity: 1;
+  transition-duration: 700ms;
+}
+#fb:hover {
+  color: #2325a1;
+  opacity: 1;
+  transition-duration: 700ms;
+}
+.footerLogoParallax {
+  text-align: center;
+  width: 15%;
+  position: absolute;
+  right: 83%;
+  top: 10%;
+}
+.--claro {
+  color: white;
+}
+.--oscuro {
+  color: black;
+}
+
+/*                                                          PARALLAX */
+
+.parallaxcontainer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 7%;
+}
+
+.parallaxcontainer p {
+  font-size: 1.4rem;
+  margin: 0 0 20px 0;
+  text-align: justify;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+  max-width: 100%;
+  position: relative;
+}
+.texto-int {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+.parallax h2 {
+  font-size: 4rem;
+}
+.parallax h3 {
+  font-size: 3rem;
+}
+
+.estilos-img-uno {
+  background-image: url("../imgs/estilos.jpg");
+}
+
+.estilos-img-dos {
+  background-image: url("../imgs/ipa.jpg");
+}
+
+.estilos-img-tres {
+  background-image: url("../imgs/irish.jpg");
+}
+
+.estilos-img-cuatro {
+  background-image: url("../imgs/golden.jpg");
+}
+
+.estilos-img-cinco {
+  background-image: url("../imgs/oatmeal.jpg");
+}
+
+.estilos-img-seis {
+  background-image: url("../imgs/pintas.jpg");
+}
+
+.proceso-img-uno {
+  background-image: url("../imgs/molienda.jpg");
+}
+
+.proceso-img-dos {
+  background-image: url("../imgs/macerado.jpg");
+}
+
+.proceso-img-tres {
+  background-image: url("../imgs/hervor.jpg");
+}
+
+.proceso-img-cuatro {
+  background-image: url("../imgs/fermentacion.jpg");
+}
+
+.proceso-img-cinco {
+  background-image: url("../imgs/envasado.jpg");
+}
+
+.proceso-img-seis {
+  background-image: url("../imgs/pintas.jpg");
 }

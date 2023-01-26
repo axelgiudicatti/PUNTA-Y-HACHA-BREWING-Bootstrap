@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NUESTROS ESTILOS</title>
-    <link rel="stylesheet" href="../css/style.css" />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/stylenew.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
       rel="stylesheet"
@@ -22,38 +27,75 @@
   </head>
   <body>
     <header>
+      <!-- NAV BAR  -->
       <div class="parallax estilos-img-uno">
-        <div class="header">
-          <a href="../index.html"
-            ><img class="header__logo" src="../imgs/logo face.png" alt=""
-          /></a>
-          <ul class="headerNavlist">
-            <li>
-              <a class="headerNavlist__link" href="../index.html"> HOME</a>
-            </li>
-            <li>
-              <a class="headerNavlist__link" href="nosotros.html">
-                Quienes somos</a
-              >
-            </li>
-            <li>
-              <a class="headerNavlist__link" href="cervezas.html">
-                Nuestras cervezas</a
-              >
-            </li>
-            <li>
-              <a class="headerNavlist__link" href="proceso.html">
-                Nuestro proceso
-              </a>
-            </li>
-          </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"
+              ><img class="header__logo" src="../imgs/logo face.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/nosotros.html"
+                    >Quienes somos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/cervezas.html"
+                    >Nuestras cervezas</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/proceso.html"
+                    >Nuestro proceso</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Ayuda
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../pages/contact.html"
+                        >CONTACTO</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../pages/faq.html">FAQ</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
         <h2 class="texto-int">Nuestros estilos</h2>
       </div>
     </header>
     <main>
       <!-- .parallax -->
-      <div class="container">
+      <div class="parallaxcontainer">
         <p>
           En Punta y Hacha nos caracterizamos por la calidad de nuestra materia
           prima y la naturalidad del proceso productivo. Nuestras cervezas son
@@ -73,7 +115,7 @@
         <h3 class="texto-int">IBU: 65 | Alc: 6.5% || SRM: 12.5</h3>
       </div>
       <!-- .parallax -->
-      <div class="container">
+      <div class="parallaxcontainer">
         <p>
           De origen británico. Cerveza de color ambar que tiene al lúpulo como
           principal protagonista. Es una cerveza fuerte, de amargor intenso
@@ -95,7 +137,7 @@
         <h3 class="texto-int">IBU: 25 | Alc: 5% || SRM: 18</h3>
       </div>
       <!-- .parallax -->
-      <div class="container">
+      <div class="parallaxcontainer">
         <p>
           Cerveza de color cobre profundo y cuerpo mediano. Aromas a caramelo
           muy marcados aunque los lúpulos también se hacen presentes. En boca,
@@ -124,7 +166,7 @@
         <h3 class="texto-int">IBU: 15 | Alc: 5.2% || SRM: 12</h3>
       </div>
       <!-- .parallax -->
-      <div class="container">
+      <div class="parallaxcontainer">
         <p>
           Versión ALE de la PILSEN LAGER germana. La golden es una cerveza
           extremadamente clara que se destaca por su marcado sabor a malta y
@@ -147,7 +189,7 @@
         <h3 class="texto-int">IBU: 35 | Alc: 5.3% || SRM: 32</h3>
       </div>
       <!-- .parallax -->
-      <div class="container">
+      <div class="parallaxcontainer">
         <p>
           Pensaste que la avena era sólo para el desayuno ? Pues no, la OATMEAL
           STOUT es una cerveza color negro intenso cuya principipal
@@ -249,5 +291,10 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
