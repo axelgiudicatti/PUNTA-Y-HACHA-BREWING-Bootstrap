@@ -1,12 +1,14 @@
-.header__logo {
-  width: 10vw;
-}
 * {
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
 }
+
+/*                                              HEADER                                            */
 .header {
   background-color: #93a392;
+}
+.header__logo {
+  width: 10vw;
 }
 .navbar {
   padding-right: 5%;
@@ -25,10 +27,13 @@
   color: white;
   transition-duration: 700ms;
 }
-
-.carousel {
+.dropdown-menu {
+  background-color: #93a392;
+  color: white;
 }
-
+.dropdown-item {
+  color: white;
+}
 /*                                             NOSOTROS                                              */
 
 .-description {
