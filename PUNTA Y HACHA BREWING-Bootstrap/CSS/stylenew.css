@@ -26,6 +26,7 @@
   background-color: #6494aa;
   color: white;
   transition-duration: 700ms;
+  transform: scale(1.1);
 }
 .dropdown-menu {
   background-color: #93a392;
@@ -34,28 +35,35 @@
 .dropdown-item {
   color: white;
 }
+
+.carousel {
+  opacity: 0.85;
+}
+
 /*                                             NOSOTROS                                              */
 
 .-description {
   text-align: justify;
   text-shadow: black;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 1.8;
 }
 .axel,
 .lola,
 .luisi {
   align-items: center;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   justify-content: space-around;
   justify-items: center;
 }
-.nosotros h1 {
+h1 {
   background-color: #adbf97;
   color: black;
   margin-bottom: 0px;
   text-align: center;
-  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .axel {
   background-color: #9dc4b5;
@@ -79,8 +87,8 @@
   grid-row-end: 1;
 }
 .-img {
-  width: 28vw;
-  height: 30vw;
+  width: 25vw;
+  height: 27vw;
 }
 .-img:hover {
   transform: scale(1.08);
@@ -88,10 +96,26 @@
   transition-duration: 800ms;
 }
 
+/*                                        FAQ                                        */
+
+.faq {
+  width: 90%;
+  margin: 0 auto;
+  padding: 7%;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 6vh;
+}
+
 /*                                                     FOOTER                                     */
 
 .footer {
-  height: 45rem;
+  height: 43rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -145,12 +169,11 @@
   opacity: 1;
   transition-duration: 700ms;
 }
-.footerLogoParallax {
-  text-align: center;
-  width: 15%;
+.footerLogoParallax__image {
+  width: 20%;
   position: absolute;
-  right: 83%;
-  top: 10%;
+  right: 80%;
+  top: 5%;
 }
 .--claro {
   color: white;
