@@ -3,7 +3,7 @@
   line-height: 1.5;
 }
 
-/*                                              HEADER                                            */
+/*                                              HEADER                                               */
 .header {
   background-color: #93a392;
 }
@@ -45,8 +45,7 @@
 .-description {
   text-align: justify;
   text-shadow: black;
-  font-size: 1.3rem;
-  line-height: 1.8;
+  font-size: 1.5rem;
 }
 .axel,
 .lola,
@@ -74,18 +73,6 @@ h1 {
 .lola {
   background-color: #e2eb98;
 }
-.luisi img {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-.luisi p {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
 .-img {
   width: 25vw;
   height: 27vw;
@@ -93,7 +80,7 @@ h1 {
 .-img:hover {
   transform: scale(1.08);
   transition-delay: 100ms;
-  transition-duration: 800ms;
+  transition-duration: 700ms;
 }
 
 /*                                        FAQ                                        */
